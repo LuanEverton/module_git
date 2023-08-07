@@ -5,17 +5,19 @@
 }
 
 body > header{
-    background-color: #3f1d1d;
+    background-color: #dd2020;
     padding: 16px;
     color: #fff;
 
 }
-header > .container a {
+header > .container a{
     color: #fff;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
+    
 }
-header.container{
+header .container{
     display:flex;
 }
 header li{
@@ -92,19 +94,33 @@ section h2,
 
 }
 
-#sports{
-    background-color: rgb(163, 76, 36);
+#economy{
+    background-color: rgba(235, 224, 75, 0.418);
 }
 section h2 {
     font-size: 32px;
 }
 #sports{
-    background-color: brown;
-}
-body{
-    background-color: rgb(196, 184, 184);
+    background-color: rgba(158, 219, 247, 0.425);
 }
 .articles article a {
     background-color: black;
-    text
+    
 }
+#Enter {
+    background-color:rgba(168, 9, 22, 0.493);
+}
+#Tecno{
+    background-color: turquoise;
+}
+#Enter a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:red;
+}
+#Tecno a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+} 
+
+
+
